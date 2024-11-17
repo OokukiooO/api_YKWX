@@ -4,11 +4,11 @@ const mongoose = require('mongoose');
 mongoose.set('strictQuery', true);
 
 // 定义数据库连接的 URI
-const mongoURI = 'mongodb://localhost:27017/fiveApi';
+const mongoURI = 'mongodb://8.155.21.160:27017/fiveApi'; // 替换为实际 URI
 
 // 创建一个函数来处理数据库连接
 const connect = () => {
-  return mongoose.connect(mongoURI);
+  return mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 };
 
 // 监听数据库连接事件
