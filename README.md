@@ -3,9 +3,9 @@
 ## 项目开发流程文档
 
 ### 0.运行
-- **使用pm2运行**：`pm2 start npm --name api_YKWX -- start prd`
-- **使用npm原生运行**：`npm start`
-- **使用pm2运行app.js(不推荐)**：`npm run prd`
+- **使用pm2运行**：`pm2 start npm --name api_YKWX -- start prd`;
+- **使用npm原生运行**：`npm start`;
+- **使用pm2运行app.js(不推荐)**：`npm run prd`;
 
 
 ### 1. 项目概述与需求分析
