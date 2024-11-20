@@ -3,8 +3,8 @@ const mongoose = require('mongoose');
 // 设置严格查询
 mongoose.set('strictQuery', true);
 
-// 定义数据库连接的 URI
-const mongoURI = 'mongodb://8.155.21.160:27017/fiveApi'; // 替换为实际 URI
+// 定义数据库连接的 URI（包括用户名、密码和身份验证数据库）
+const mongoURI = 'mongodb://Fiveapi_admin:a%21d%40m%23i%24%25N_%3CD%24eV%26%3E@8.155.21.160:27017/fiveApi?authSource=fiveApi';
 
 // 创建一个函数来处理数据库连接
 const connect = () => {
